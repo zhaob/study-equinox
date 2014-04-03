@@ -1,4 +1,4 @@
-package org.equinoxosgi.toast;
+package org.equinoxosgi.toast.dev.airbag;
 
 import java.util.ArrayList;
 import java.util.Iterator;

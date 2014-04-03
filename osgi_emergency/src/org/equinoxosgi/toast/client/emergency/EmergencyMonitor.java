@@ -1,4 +1,8 @@
-package org.equinoxosgi.toast;
+package org.equinoxosgi.toast.client.emergency;
+
+import org.equinoxosgi.toast.dev.airbag.Airbag;
+import org.equinoxosgi.toast.dev.airbag.IAirbagListener;
+import org.equinoxosgi.toast.dev.gps.Gps;
 
 public class EmergencyMonitor implements IAirbagListener {
 	

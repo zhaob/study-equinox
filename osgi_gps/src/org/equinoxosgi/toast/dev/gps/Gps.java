@@ -1,4 +1,4 @@
-package org.equinoxosgi.toast;
+package org.equinoxosgi.toast.dev.gps;
 
 public class Gps {
 	
