@@ -5,3 +5,5 @@ Bundle-SymbolicName: org.equinoxosgi.toast.dev.gps
 Bundle-Version: 1.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Export-Package: org.equinoxosgi.toast.dev.gps
+Bundle-Activator: org.equinoxosgi.toast.internal.dev.gps.fake.bundle.Activator
+Import-Package: org.osgi.framework;version="1.7.0"
