@@ -48,10 +48,10 @@ public class FakeAirbag implements IAirbag {
 			protected IStatus run(IProgressMonitor monitor) {
 				deploy();
 				if (isRunning)
-					schedule(5000);
+					schedule(10000);
 				return Status.OK_STATUS;
 			}
 		};
-		job.schedule(5000);
+		job.schedule(10000);
 	}
 }
